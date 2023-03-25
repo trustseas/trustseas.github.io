@@ -1,0 +1,83 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    padding: 0;
+    font-size: 1.5em;
+    background: #d7e8f4;
+}
+p, li {
+    line-height: 1.5em;
+    letter-spacing: 0.035em;
+    text-align: justify;
+}
+#heading {
+    width: 100%;
+    height: 25vw;
+    padding: 0;
+    margin: 0;
+}
+#heading .left {
+    padding: 2.5vw 5%;
+    width: 45%;
+    height: 20vw;
+    float: left;
+}
+#heading .right {
+    /*width: 37.5%;*/
+    float: right;
+    height: 100%;
+}
+#heading h1 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 5vw;
+}
+h1 {
+    font-size: 5vw;
+}
+.section {
+    padding: 2.5% 7.5%;
+}
+.red_section {
+    background: #f2bfbf;
+}
+.red_section b {
+    text-decoration: underline;
+}
+.video {
+    padding: 0 5%;
+}
+.video iframe {
+    height: 45vw;
+    width: 80vw;
+    display: block;
+    margin: 0 auto;
+}
+#signature {
+    height: 12em;
+    /*margin-left: -1em;*/
+}
+#columbia_logo {
+    height: 5em;
+    float: right;
+    padding: 0 0 0 1em;
+}
+.headshot {
+    height: 8em;
+    float: right;
+    padding: 0 0 0 1em;
+}
+#contact, #heading {
+    color: white;
+    background: #050505;
+}
+#contact a, .contact a {
+    text-decoration: none;
+}
+#contact img, .contact img {
+    height: 1.75em;
+    transform: translateY(0.6em);
+}
+.section a {
+    text-decoration: none;
+    color: purple;
+}
